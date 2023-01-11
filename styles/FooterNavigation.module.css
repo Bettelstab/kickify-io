@@ -1,0 +1,28 @@
+.footerNavigation ul {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 600px) {
+  .footerNavigation ul {
+    list-style: none;
+  }
+
+  .footerNavigation li {
+    display: inline-block;
+  }
+
+  .footerNavigation ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .footerNavigation li {
+    display: inline-block;
+  }
+
+  .footerNavigation ul li:not(:last-child) a::after {
+    content: "-";
+    display: inline-block;
+    margin: 0 5px;
+  }
+}

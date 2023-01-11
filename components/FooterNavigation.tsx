@@ -1,8 +1,9 @@
 import Link from "next/link";
+import styles from "../styles/FooterNavigation.module.css";
 
 export default function NavigationBar() {
   return (
-    <nav id="footer-navigation">
+    <nav className={styles.footerNavigation}>
       <ul>
         <li>
           <Link href="/">Home</Link>

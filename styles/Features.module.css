@@ -1,0 +1,39 @@
+.featuresSection {
+  padding: 50px 0;
+}
+
+.featuresSection h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.boxContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.featureBox {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  background: #F5F5F5;
+  border-radius: 5px;
+}
+
+.featureBox h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.featureBox p {
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .featureBox {
+    background: #222;
+  }
+}
