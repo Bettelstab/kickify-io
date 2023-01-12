@@ -1,4 +1,4 @@
-import BasicPage from "../../components/BasicPage";
+import BasicPage from "../../components/basic-page";
 import Features from "./Features";
 import Hero from "./Hero";
 import PreBuilt from "./PreBuilt";

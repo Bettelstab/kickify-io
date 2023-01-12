@@ -1,4 +1,4 @@
-import BasicPage from "../../components/BasicPage";
+import BasicPage from "../../components/basic-page";
 
 export default function ShopifyAdminApi() {
   return (

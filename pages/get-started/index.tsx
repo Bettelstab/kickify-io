@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./GetStarted.module.css";
-import BasicPage from "../../components/BasicPage";
+import BasicPage from "../../components/basic-page";
 
 export default function GetStarted() {
   const [openTab, setOpenTab] = React.useState(1);
