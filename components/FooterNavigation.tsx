@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/FooterNavigation.module.css";
+import styles from "./FooterNavigation.module.css";
 
 export default function NavigationBar() {
   return (

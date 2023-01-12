@@ -1,0 +1,30 @@
+
+
+.navigationBar {
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  background: white;
+  font-size: clamp(13px,3.5vw,18px);
+}
+@media (prefers-color-scheme: dark) {
+  .navigationBar {
+    background: black;
+    border-color: white;
+  }
+}
+
+.navigationBar ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.navigationBar ul li {
+  float: left;
+  padding: 0 10px;
+}
+.navigationBar ul li a {
+  text-decoration: none;
+}

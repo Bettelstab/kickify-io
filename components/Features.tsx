@@ -1,4 +1,4 @@
-import styles from "../styles/Features.module.css";
+import styles from "./Features.module.css";
 
 type Props = {
   children: React.ReactNode;
@@ -10,11 +10,11 @@ function FeatureBox(props: Props) {
 
 export default function Features() {
   return (
-    <div className={styles.featuresSection}>
+    <div className={styles.featuresSection} id="features">
       <h2>🚀 Kickstart your Shopify App business</h2>
       <div className={styles.boxContainer}>
         <FeatureBox>
-          <h3>Fast & easy deployment</h3>
+          <h3>Easy deployment</h3>
           <p>Use our Node.JS template to get started or bring your own.</p>
         </FeatureBox>
         <FeatureBox>
