@@ -1,9 +1,9 @@
 .hero {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .heroImage {
-  width: 100%;
+  object-fit: contain;
 }
 
 .title {
@@ -13,20 +13,45 @@
   font-size: clamp(20px, 2.4vw, 30px);
 }
 
-.container {
+.grid {
   display: grid;
   place-items: center;
   grid-template-columns: 100%;
   height: 100%;
-  padding: 0 2rem;
+  grid-gap: 30px;
+}
+
+.container {
+  container-type: inline-size;
+  width: 100%;
+}
+
+.imageContainer {
+  position: relative;
+  --width: 100cqw;
+  width: var(--width);
+  height: calc(var(--width) * 0.666);
+  order: 0;
+}
+
+.textContainer {
+  order: 1;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    grid-template-columns: 50% 50%;
+  .grid {
+    grid-template-columns: 3fr 6fr;
   }
 
   .title {
     text-align: left;
+  }
+
+  .imageContainer {
+    order: 1;
+  }
+
+  .textContainer {
+    order: 0;
   }
 }

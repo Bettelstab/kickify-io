@@ -1,11 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Hero.module.css";
+import heroImage from "/public/images/angry-dev-3000.jpg";
 
 export default function Hero() {
   return (
     <div className={styles.hero}>
-      <div className={styles.container}>
-        <div>
+      <div className={styles.grid}>
+        <div className={styles.textContainer}>
           <h1 className={styles.title}>Deploy your Shopify App in minutes</h1>
           <p className={styles.description}>
             Developing and deploying a Shopify App can be cumbersome. Take a
@@ -15,13 +17,16 @@ export default function Hero() {
             <button>Get started</button>
           </Link>
         </div>
-        <div>
-          <img
-            className={styles.heroImage}
-            src="/images/angry-dev-400.jpg"
-            alt="Angry developer wants to deploy his Shopify App"
-            srcSet="/images/angry-dev-400.jpg 400w, /images/angry-dev-1000.jpg 1000w, /images/angry-dev-3000.jpg 3000w"
-          />
+        <div className={styles.container}>
+          <div className={styles.imageContainer}>
+            <Image
+              className={styles.heroImage}
+              src={heroImage}
+              alt="Angry developer wants to deploy his Shopify App"
+              priority
+              fill
+            />
+          </div>
         </div>
       </div>
     </div>

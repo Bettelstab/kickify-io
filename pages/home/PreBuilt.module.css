@@ -11,7 +11,7 @@
 }
 
 .featureBox {
-  width: clamp(300px, 75vw, 800px);
+  width:  clamp(270px, 75vw, 800px);
   padding: 10px 20px;
   margin: 10px;
 }

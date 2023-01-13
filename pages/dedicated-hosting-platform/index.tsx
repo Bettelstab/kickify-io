@@ -1,4 +1,4 @@
-import BasicPage from "../../components/basic-page";
+import BasicPage from "/components/basic-page";
 
 export default function DedicatedHostingPlatform() {
   return (

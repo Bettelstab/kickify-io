@@ -1,4 +1,4 @@
-import BasicPage from "../../components/basic-page";
+import BasicPage from "/components/basic-page";
 
 export default function LegalNotice() {
     return <BasicPage title="Legal Notice" description="Legal notice of Shopkick.io">

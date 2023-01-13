@@ -1,9 +1,10 @@
-import BasicPage from "../../components/basic-page";
+import BasicPage from "/components/basic-page";
 import Features from "./Features";
 import Hero from "./Hero";
 import PreBuilt from "./PreBuilt";
 import Pricing from "./Pricing";
 import styles from "./Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,20 +22,18 @@ export default function Home() {
         </a>
         */}
 
-        <a href="/app" className={styles.card}>
+        <Link href="/learn" className={styles.card}>
           <h2>Learn &rarr;</h2>
           <p>Learn about the possibilities of Shopify apps</p>
-        </a>
+        </Link>
 
-        <a href="/get-started" className={styles.card}>
+        <Link href="/get-started" className={styles.card}>
           <h2>Get started</h2>
           <p>Examples to get you started quickly</p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/deploy"
-          target="_blank"
-          rel="noopener noreferrer"
           className={styles.card}
         >
           <h2>Deploy &rarr;</h2>
@@ -42,7 +41,7 @@ export default function Home() {
             Instantly deploy our Shopify App template or your own code to
             Shopkick.io
           </p>
-        </a>
+        </Link>
       </div>
     </BasicPage>
   );

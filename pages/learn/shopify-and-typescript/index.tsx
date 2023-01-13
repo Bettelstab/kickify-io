@@ -1,4 +1,5 @@
-import BasicPage from "../../components/basic-page";
+import Link from "next/link";
+import BasicPage from "/components/basic-page";
 
 export default function MakeMoneyWithShopify() {
   return (
@@ -38,7 +39,7 @@ export default function MakeMoneyWithShopify() {
           Sell your own app: You can create and sell your own app directly on
           the Shopify App Store. You can charge a one-time fee or a recurring
           subscription to access your app.{" "}
-          <a href="/make-money-with-shopify-apps">More on this</a>
+          <Link href="/make-money-with-shopify-apps">More on this</Link>
         </li>
       </ul>
     </BasicPage>

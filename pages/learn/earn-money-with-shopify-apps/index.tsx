@@ -1,10 +1,10 @@
-import BasicPage from "../../components/basic-page";
+import BasicPage from "/components/basic-page";
 
-export default function MakeMoneyWithShopifyApps() {
+export default function EarnMoneyWithShopifyApps() {
   return (
     <BasicPage
-      title="How to make money with Shopify"
-      description="Ways to start a business based on Shopify"
+      title="How to earn money with Shopify Apps"
+      description="Ways to start a business based on Shopify Apps"
       showAdvertising
     >
       <h1>Making Money with Shopify Apps</h1>

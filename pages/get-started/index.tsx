@@ -1,7 +1,8 @@
 import React from "react";
 
+import BasicPage from "/components/basic-page";
 import styles from "./GetStarted.module.css";
-import BasicPage from "../../components/basic-page";
+import Link from "next/link";
 
 export default function GetStarted() {
   const [openTab, setOpenTab] = React.useState(1);
@@ -19,10 +20,10 @@ export default function GetStarted() {
     `}
       </code>
 
-      <a href="/rails">Show Rails version</a>
+      <Link href="/rails">Show Rails version</Link>
 
-      <p>To obtain your API code, <a href="/signup">start for free now!</a></p>
-      <a href="/signup"><button>Signup</button></a>
+      <p>To obtain your API code, <Link href="/signup">start for free now!</Link></p>
+      <Link href="/signup"><button>Signup</button></Link>
     </BasicPage>
   );
 }

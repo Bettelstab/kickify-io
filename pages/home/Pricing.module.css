@@ -7,7 +7,7 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.pricingSecton .price-box {
+.priceBox {
   width: 300px;
   padding: 10px 20px;
   margin: 0 auto;
@@ -16,15 +16,23 @@
   background: #F5F5F5;
   border-radius: 5px;
 }
-.pricingSection .price-box h3 {
+.priceBox h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-.pricingSection .price-box p {
+.priceBox p {
   font-size: 18px;
 }
-.pricingSection .price-box .price {
+.price {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.features {
+  margin: 20px 0;
+}
+
+.priceBoxes {
+  display: flex;
+  flex-flow: row wrap;
 }
