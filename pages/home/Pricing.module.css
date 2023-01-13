@@ -2,37 +2,60 @@
   padding: 50px 0;
   background: #f5f5f5;
 }
+
 .pricingSection h2 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 30px;
 }
+
 .priceBox {
   width: 300px;
   padding: 10px 20px;
   margin: 0 auto;
   margin-bottom: 30px;
-  text-align: center;
   background: #F5F5F5;
   border-radius: 5px;
+  font-size: clamp(16px, 1.3vw, 18px);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
 }
+
 .priceBox h3 {
-  font-size: 24px;
   margin-bottom: 10px;
 }
-.priceBox p {
-  font-size: 18px;
-}
+
 .price {
-  font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: clamp(18px, 1.4vw, 22px);
 }
+
 .features {
   margin: 20px 0;
+  text-align: left;
 }
 
 .priceBoxes {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.free {
+  background: green;
+}
+
+@media screen and (min-width: 680px) {
+  .priceBoxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .priceBoxes {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
