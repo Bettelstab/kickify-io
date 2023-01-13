@@ -1,14 +1,9 @@
-
-.contactSection {
-  padding: 50px 0;
-}
 .contactSection h2 {
-  font-size: 36px;
   text-align: center;
   margin-bottom: 30px;
 }
 .contactSection form {
-  width: 500px;
+  width: clamp(280px, 50%, 500px);
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 20px;
@@ -21,4 +16,14 @@
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  .contactSection form {
+    background: #333;
+  }
+  .contactSection form input, .contactSection form textarea {
+    border: 1px solid #555;
+  }
 }

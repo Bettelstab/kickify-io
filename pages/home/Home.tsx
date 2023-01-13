@@ -5,6 +5,7 @@ import PreBuilt from "./PreBuilt";
 import Pricing from "./Pricing";
 import styles from "./Home.module.css";
 import Link from "next/link";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Features />
       <PreBuilt />
       <Pricing />
+
+      <Contact />
 
       <div className={styles.grid}>
         {/*
