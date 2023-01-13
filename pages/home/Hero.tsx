@@ -22,6 +22,7 @@ export default function Hero() {
             <Image
               className={styles.heroImage}
               src={heroImage}
+              placeholder="blur"
               alt="Angry developer wants to deploy his Shopify App"
               priority
               fill
