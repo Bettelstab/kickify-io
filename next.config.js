@@ -4,6 +4,7 @@ const ContentSecurityPolicy = `
   child-src 'none';
   style-src 'self' 'unsafe-inline';
   font-src 'self';
+  img-src 'self' data: https:;
 `
 
 const securityHeaders = [{
