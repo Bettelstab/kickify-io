@@ -18,14 +18,12 @@ export default function Features() {
           <p>Use our Node.JS template to get started or bring your own.</p>
         </FeatureBox>
         <FeatureBox>
-          <h3>Interoperability</h3>
-          <p>
-            Use our environment as a bridge between Shopify and your systems.
-          </p>
+          <h3>Great dev experience</h3>
+          <p>Enojoy first-class Typescript support and prebuilt functionality.</p>
         </FeatureBox>
         <FeatureBox>
-          <h3>Great dev experience</h3>
-          <p>First-class Typescript support and prebuilt functionality</p>
+          <h3>Fair pricing</h3>
+          <p>Start for free with peace of mind. We grow with you.</p>
         </FeatureBox>
       </div>
     </div>

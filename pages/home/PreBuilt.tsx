@@ -4,10 +4,37 @@ export default function PreBuilt() {
   return (
     <div className={styles.preBuilt}>
       <h2>Focus on your core product - we cover for you:</h2>
+
+      <div className={styles.featureBox}>
+        <h3>🏆 Tier management</h3>
+        <p>
+          Ready-to-go user tier management which helps you to offer premium
+          services to those who pay more.
+        </p>
+      </div>
+      <div className={styles.featureBox}>
+        <h3>🚧 Staging environment</h3>
+        <p>
+          Test you app in your staging shop before you roll it out to your
+          clients.
+        </p>
+      </div>
+      <div className={styles.featureBox}>
+        <h3>⚙️ Interoperability</h3>
+        <p>
+          Use our environment as a bridge between Shopify and the rest of your
+          systems.
+        </p>
+      </div>
+      <div className={styles.featureBox}>
+        <h3>⏰ Timed background jobs</h3>
+        <p>Use our background job service to run code in regular intervals.</p>
+      </div>
       <div className={styles.featureBox}>
         <h3>🚨 Failsafe event transmission</h3>
         <p>
-          Use our reconcilation service to never miss a new order / product / etc.
+          Use our reconcilation service to never miss a new order / product /
+          etc.
         </p>
         <details>
           <summary>Why would I need this?</summary>
@@ -27,19 +54,6 @@ export default function PreBuilt() {
             </a>
           </div>
         </details>
-      </div>
-      <div className={styles.featureBox}>
-        <h3>🏆 Tier management</h3>
-        <p>
-          Ready-to-go user tier management which helps you to offer premium
-          services to those who pay more.
-        </p>
-      </div>
-      <div className={styles.featureBox}>
-        <h3>🚧 Staging environment</h3>
-        <p>
-          Test you app in your staging shop before you roll it out to your clients.
-        </p>
       </div>
     </div>
   );
