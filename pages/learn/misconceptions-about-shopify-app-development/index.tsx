@@ -10,7 +10,7 @@ export default function MisconceptionsAboutShopifyAppDevelopment() {
 
       <ul>
         <li>
-          <strong>It's Too Difficult:</strong> Many people think that developing
+          <strong>It&apos;s Too Difficult:</strong> Many people think that developing
           an app for Shopify is overly complicated and time-consuming. However,
           the Shopify App Store makes it easy to create an app for Shopify and
           the platform provides helpful resources to guide the development
@@ -23,7 +23,7 @@ export default function MisconceptionsAboutShopifyAppDevelopment() {
           anyone can develop an app for Shopify.
         </li>
         <li>
-          <strong>It's Too Expensive:</strong> Developing an app for Shopify can
+          <strong>It&apos;s Too Expensive:</strong> Developing an app for Shopify can
           be done on a budget. There are many free resources available to help
           developers build their apps, as well as many free app templates that
           can be used to quickly create an app.
