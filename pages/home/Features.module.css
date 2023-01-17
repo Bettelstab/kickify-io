@@ -1,5 +1,6 @@
 .featuresSection {
   padding: 50px 0;
+  width: clamp(300px, 90%, 1200px);
 }
 
 .featuresSection h2 {
@@ -9,15 +10,16 @@
 }
 
 .boxContainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 15px;
+  place-items: center;
 }
 
 .featureBox {
-  width: 300px;
+  max-width: 300px;
   padding: 10px 20px;
-  margin: 10px;
+  height: 100%;
   text-align: center;
   background: #F5F5F5;
   border-radius: 5px;
