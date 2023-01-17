@@ -11,7 +11,7 @@ export default function Hero() {
           <h1 className={styles.title}>Deploy your Shopify App in minutes</h1>
           <p className={styles.description}>
             Developing and deploying a Shopify App can be cumbersome. Take a
-            shortcut and do it the Shopkick way.
+            shortcut and do it the <em>Shopkick</em> way.
           </p>
           <Link href="/signup">
             <button>Get started</button>
