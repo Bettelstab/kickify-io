@@ -59,3 +59,14 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* Provide dark theme */
+@media (prefers-color-scheme: dark) {
+  .pricingSection {
+    background: #333;
+  }
+  .priceBox {
+    background: #333;
+    color: #fff;
+  }
+}
