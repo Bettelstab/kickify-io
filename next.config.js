@@ -1,11 +1,11 @@
 const ContentSecurityPolicy = `
   default-src 'self' vitals.vercel-insights.com;
-  script-src 'self';
+  script-src 'self'${process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''};
   child-src 'none';
   style-src 'self' 'unsafe-inline';
   font-src 'self';
   img-src 'self' data: https:;
-`
+`;
 
 const securityHeaders = [{
   key: 'Content-Security-Policy',
