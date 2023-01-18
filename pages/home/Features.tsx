@@ -1,3 +1,5 @@
+import Image from "next/image";
+import logo from "/public/images/logo.png";
 import styles from "./Features.module.css";
 
 type Props = {
@@ -11,7 +13,10 @@ function FeatureBox(props: Props) {
 export default function Features() {
   return (
     <div className={styles.featuresSection} id="features">
-      <h2>🚀 Kickstart your Shopify App business</h2>
+      <h2>
+        <Image src={logo} alt="The Kickify Logo, a man kicking all Shopify app development problems away" width={100} />
+        Kickstart your Shopify App business
+      </h2>
       <div className={styles.boxContainer}>
         <FeatureBox>
           <h3>Easy deployment</h3>
