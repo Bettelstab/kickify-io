@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Deploy your Shopify App in minutes</h1>
+        <h1 className={styles.title}>🚀 Deploy your Shopify App in minutes</h1>
         <p className={styles.description}>
           Developing and deploying a Shopify App can be cumbersome. Take a
           shortcut and do it the <em>Kickify</em> way.
