@@ -14,7 +14,7 @@ export default function GetStarted() {
       <h2>...or register your existing app with our API</h2>
       <code className={styles.code}>
         {`
-    import { registerStore } from '@shopkick/shopkick';
+    import { registerStore } from '@kickify/kickify';
 
     await registerStore('YOUR-API-KEY', store.accessToken, store.url);
     `}

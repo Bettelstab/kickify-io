@@ -1,5 +1,10 @@
 .footerNavigation ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.footerNavigation li {
+  margin: 10px 0;
 }
 
 @media screen and (min-width: 600px) {

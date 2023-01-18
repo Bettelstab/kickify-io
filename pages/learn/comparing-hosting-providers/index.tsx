@@ -39,7 +39,7 @@ export default function ComparingHostingProviders() {
       Shopify app, then Heroku is likely the best choice. If you’re looking for
       a more powerful and customizable solution, then AWS or GCP might be better
       options. If you’re looking for a hosting platform specifically designed
-      for Shopify apps, then you might want to check out Shopkick. Shopkick
+      for Shopify apps, then you might want to check out Kickify. Kickify
       provides a reliable and easy to use platform that is optimized for Shopify
       apps. It has a generous free tier and offers features such as automated
       scaling, so you can get started quickly and easily.

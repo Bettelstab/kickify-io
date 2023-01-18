@@ -19,11 +19,25 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
 }
 
-.footer a {
+.logoContainer {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  padding: 15px;
+}
+
+.brand {
+  font-size: 40px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  .logoContainer {
+    padding-left: 15px;
+  }
 }

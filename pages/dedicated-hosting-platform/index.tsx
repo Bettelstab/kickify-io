@@ -33,7 +33,7 @@ export default function DedicatedHostingPlatform() {
           customers.
         </li>
       </ul>
-      Shopkick.io can give you these advantages, and even more. Shopify specific
+      Kickify.io can give you these advantages, and even more. Shopify specific
       functionality will boost your development speed.
     </BasicPage>
   );

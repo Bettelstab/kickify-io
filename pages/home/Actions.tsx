@@ -7,7 +7,7 @@ export default function Actions() {
       {/*
   <a href="/docs" className={styles.card}>
     <h2>Documentation &rarr;</h2>
-    <p>Find in-depth information about Shopkick.io features and API.</p>
+    <p>Find in-depth information about Kickify.io features and API.</p>
   </a>
   */}
 
@@ -25,7 +25,7 @@ export default function Actions() {
         <h2>Deploy &rarr;</h2>
         <p>
           Instantly deploy our Shopify App template or your own code to
-          Shopkick.io
+          Kickify.io
         </p>
       </Link>
     </div>

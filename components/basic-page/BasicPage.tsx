@@ -1,8 +1,10 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "./BasicPage.module.css";
 import Advertising from "./Advertising";
 import FooterNavigation from "./FooterNavigation";
 import NavigationBar from "./NavigationBar";
+import logo from "/public/images/logo.png";
 
 type Props = {
   title?: string;
@@ -17,7 +19,7 @@ export default function BasicPage({
   children,
   showAdvertising = false,
 }: Props) {
-  let pageTitle = "Shopkick.io";
+  let pageTitle = "Kickify.io";
   if (title) {
     pageTitle = `${pageTitle} - ${title}`;
   }
@@ -40,6 +42,10 @@ export default function BasicPage({
           {showAdvertising && <Advertising />}
         </main>
         <footer className={styles.footer}>
+          <div className={styles.logoContainer}>
+            <Image src={logo} alt="Kickify.io Logo" width={150}/>
+            <div className={styles.brand}>Kickify.io</div>
+          </div>
           <FooterNavigation />
         </footer>
       </div>
