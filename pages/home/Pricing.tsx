@@ -4,7 +4,7 @@ import styles from "./Pricing.module.css";
 
 export default function Pricing() {
   return (
-    <div className={styles.precingSection} id="pricing">
+    <div className={styles.pricingSection} id="pricing">
       <h2>Our Pricing</h2>
       <div className={styles.priceBoxes}>
         <div className={classNames(styles.priceBox, styles.free)}>
