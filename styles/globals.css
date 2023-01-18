@@ -5,6 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: clamp(18px, 5vw, 20px);
+	scroll-behavior: smooth !important;
   --white: #ffffff;
   --black: #010001ff;
   --blue: #1987F1ff;
@@ -17,6 +18,17 @@ body {
   --windsor-tan: #9C5108ff;
   --gradient-colors: var(--blue-green), var(--persian-green), var(--green-pigment), var(--yellow-green), var(--citron);
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto !important;;
+	}
+}
+
+* {
+  scroll-behavior: inherit !important;
+}
+
 
 a {
   color: inherit;
@@ -51,5 +63,9 @@ button {
 }
 
 button:hover {
+  cursor: pointer;
+}
+
+details summary {
   cursor: pointer;
 }
