@@ -45,7 +45,23 @@
 }
 
 .free {
-  background: green;
+  background: linear-gradient(45deg, var(--gradient-colors));
+  color: var(--white);
+}
+
+.priceBox button {
+  margin: 10px;
+}
+
+.free button {
+  margin-bottom: 20px;
+  background: var(--black);
+  transition: color, background 0.35s ease;
+}
+
+.free button:hover {
+  background: var(--white);
+  color: var(--black);
 }
 
 @media screen and (min-width: 680px) {
