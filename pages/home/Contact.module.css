@@ -26,6 +26,10 @@
   height: 200px;
 }
 
+.contactSection input[type="submit"]:hover {
+  cursor: pointer;
+}
+
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   .contactSection form {
