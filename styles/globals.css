@@ -5,6 +5,17 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: clamp(18px, 5vw, 20px);
+  --white: #ffffff;
+  --black: #010001ff;
+  --blue: #1987F1ff;
+  --blue-green: #2392beff;
+  --persian-green: #2d9d8bff;
+  --green-pigment: #37a858ff;
+  --yellow-green: #40B225ff;
+  --citron: #9ea61eff;
+  --yellow-orange: #FB9916ff;
+  --windsor-tan: #9C5108ff;
+  --gradient-colors: var(--blue-green), var(--persian-green), var(--green-pigment), var(--yellow-green), var(--citron);
 }
 
 a {
@@ -20,6 +31,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
@@ -27,18 +39,17 @@ a {
 }
 
 button {
-  background: #007BFF;
+  background-image: linear-gradient(90deg, var(--gradient-colors));
   padding: 10px 20px;
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
   border: none;
-  border-radius: 5px;
-  transition: filter 0.25s ease;
+  border-radius: 15px;
+  transition: background 0.2s ease;
 }
 
 button:hover {
   cursor: pointer;
-  filter: invert();
 }
