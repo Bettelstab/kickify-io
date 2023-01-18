@@ -7,6 +7,11 @@
   margin: 10px 0;
 }
 
+.footerNavigation a:hover {
+  color: var(--yellow-green);
+  font-style: italic;
+}
+
 @media screen and (min-width: 600px) {
   .footerNavigation ul {
     list-style: none;

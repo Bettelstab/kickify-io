@@ -28,3 +28,8 @@
 .navigationBar ul li a {
   text-decoration: none;
 }
+
+.navigationBar a:hover {
+  color: var(--yellow-green);
+  font-style: italic;
+}
