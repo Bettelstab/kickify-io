@@ -6,7 +6,7 @@ export default function NavigationBar() {
     <nav id="navigation-bar" className={styles.navigationBar}>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">Kickify</Link>
         </li>
         <li>
           <Link href="/#features">Features</Link>
