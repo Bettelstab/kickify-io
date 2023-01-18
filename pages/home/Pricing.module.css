@@ -77,7 +77,7 @@
 
 /* Provide dark theme */
 @media (prefers-color-scheme: dark) {
-  .priceBox {
+  .priceBox:not(.free) {
     background: #333;
     color: #fff;
   }
