@@ -1,0 +1,30 @@
+/* CSS for the Template component, which is used by the Get Started page.
+Template should be a visual representation of an app template, which can be deployed to a hosting proivder. */
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid var(--yellow-orange);
+  position: relative;
+}
+
+.template:has(button:hover) {
+  border: 1px solid var(--windsor-tan);
+}
+
+.title {
+  height: 100px;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px;
+}
