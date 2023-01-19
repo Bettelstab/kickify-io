@@ -25,6 +25,15 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/deploy',
+        destination: '/get-started',
+        permanent: false,
+      },
+    ]
+  },
 };
 
 module.exports = nextConfig;
