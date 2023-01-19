@@ -9,19 +9,19 @@ export default function NavigationBar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/features">Features</Link>
+          <Link href="/#features">Features</Link>
         </li>
         <li>
-          <Link href="/pricing">Pricing</Link>
+          <Link href="/#pricing">Pricing</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/#contact">Contact</Link>
+        </li>
+        <li>
+          <Link href="/learn">Learn</Link>
         </li>
         <li>
           <Link href="/legal-notice">Legal Notice</Link>
-        </li>
-        <li>
-          <Link href="/blog">Blog</Link>
         </li>
         <li>
           <Link href="/privacy-policy">Privacy Policy</Link>
