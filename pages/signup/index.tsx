@@ -11,7 +11,7 @@ export default function Signup() {
         <p>By signing up, you accept our <Link href="/privacy-policy">Privacy Policy</Link>.</p>
         <form action="https://formsubmit.co/contact@kickify.io" method="POST">
           <input type="email" name="email" placeholder="Email" required />
-          <input type="hidden" name="_next" value="/signup/thank-you" />
+          <input type="hidden" name="_next" value="https://www.kickify.io/signup/thank-you" />
           <button type="submit">Continue</button>
         </form>
       </div>

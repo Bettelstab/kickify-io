@@ -9,17 +9,12 @@ export default function Signup() {
         <h1>Signup</h1>
         <div>
           Thank you so much for your interest in Kickify! We are currently in a
-          closed alpha testing. If you leave us your email address, we will
-          notify you as soon as we start public beta testing!
+          closed alpha testing. We will notify you as soon as we start public beta testing!
           <p className={styles.withdrawConsent}>
-            If you don&apos;t want to receive a message, you can withdraw your
-            consent any time by contacting with support@kickify.io.
+            If you don&apos;t want to receive a message, let us know by writing
+            at support@kickify.io.
           </p>
         </div>
-        <form action="https://formsubmit.co/05eb87bb425564842589889b8fe2d24a" method="POST">
-          <input type="email" name="email" placeholder="Email" required />
-          <input type="submit" value="Send" />
-        </form>
       </div>
     </BasicPage>
   );
