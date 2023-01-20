@@ -4,9 +4,9 @@ export default function Contact() {
   return (
     <div className={styles.contactSection} id="contact">
       <h2>Any questions? Contact Us!</h2>
-      <form action="https://formsubmit.co/cd34e70cb6c9ee805b03a054fa879ae0" method="POST">
-        <input type="text" placeholder="Email" required />
-        <textarea placeholder="Message"></textarea>
+      <form action="https://formsubmit.co/contact@kickify.io" method="POST">
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message"></textarea>
         <input type="submit" value="Send" />
       </form>
     </div>
