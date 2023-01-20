@@ -11,7 +11,7 @@ export default function Template({ id, title }: Props) {
     <div className={styles.template}>
       <div className={styles.icon}></div>
       <h3 className={styles.title}>📁 {title}</h3>
-      <Link href={`/get-started/${id}`}>
+      <Link href={`/deploy/${id}`}>
         <button>Deploy</button>
       </Link>
     </div>
