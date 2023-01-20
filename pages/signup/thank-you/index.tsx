@@ -16,7 +16,7 @@ export default function Signup() {
             consent any time by contacting with support@kickify.io.
           </p>
         </div>
-        <form action="https://formsubmit.co/contact@kickify.io" method="POST">
+        <form action="https://formsubmit.co/05eb87bb425564842589889b8fe2d24a" method="POST">
           <input type="email" name="email" placeholder="Email" required />
           <input type="submit" value="Send" />
         </form>
