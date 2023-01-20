@@ -26,7 +26,7 @@ export default function GetStarted() {
 
       <h2>Existing codebase</h2>
       <p>
-        It's easy to integrate with your existing codebase at GitHub. (More
+        It&apos;s easy to integrate with your existing codebase at GitHub. (More
         coming soon! Let us know what you need.)
       </p>
       <Link href="/signup-github" className={styles.github}>

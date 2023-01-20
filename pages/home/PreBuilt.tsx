@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./PreBuilt.module.css";
 
 export default function PreBuilt() {
@@ -49,9 +50,9 @@ export default function PreBuilt() {
           of course! <br />
           Sounds interesting?
           <div className={styles.button}>
-            <a href="/signup">
+            <Link href="/signup">
               <button>Get started with a free trial!</button>
-            </a>
+            </Link>
           </div>
         </details>
       </div>
