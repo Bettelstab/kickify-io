@@ -16,6 +16,7 @@ const securityHeaders = [{
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  pageExtensions: ['tsx'],
   async headers() {
     return [
       {
