@@ -42,7 +42,7 @@ export default function ShopifyAdminApi() {
           developers looking to get the most out of their store, and
           indispensable for Shopify app developers. Here at Kickify, we use it
           extensively to provide our services, for example for our reconcilation
-          service. To make sure our clients don't miss any webhook event, we use
+          service. To make sure our clients don&apos;t miss any webhook event, we use
           the Shopify Admin API to regularly fetch all new data and compare it
           to our database.
         </p>
