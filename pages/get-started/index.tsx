@@ -5,9 +5,16 @@ import BasicPage from "/components/basic-page";
 import styles from "./GetStarted.module.css";
 import Template from "./Template";
 import Tab from "./Tab";
+import code from "./code";
 
-export default function GetStarted() {
-  const [openTab, setOpenTab] = React.useState(1);
+type Tab = "node" | "php" | "rails";
+
+type Props = {
+  openTab?: Tab;
+};
+
+export default function GetStarted({ openTab = "node" }: Props) {
+  // const [openTab, setOpenTab] = React.useState<Tab>("node");
 
   return (
     <BasicPage title="Get started" description="Examples of how to use our API">
@@ -24,7 +31,7 @@ export default function GetStarted() {
         <Template id="php" title="PHP (Laravel)" />
       </div>
 
-      <h2>Existing codebase</h2>
+      <h2 className={styles.existingCodebaseSection}>Existing codebase</h2>
       <p>
         It&apos;s easy to integrate with your existing codebase at GitHub. (More
         coming soon! Let us know what you need.)
@@ -32,20 +39,17 @@ export default function GetStarted() {
       <Link href="/signup/github" className={styles.github}>
         <button>Connect GitHub repository</button>
       </Link>
-      <p>
+      <p id="code" className={styles.codeSection}>
         If you want to use our reconcilation service and other features, you
         need to register new shops with our API:
       </p>
       <code className={styles.code}>
-        {`import { registerStore } from '@kickify/kickify';
-
-await registerStore('YOUR-API-KEY', store.accessToken, store.url);
-    `}
+        { code[openTab] }
       </code>
       <div className={styles.tabs}>
-        <Tab title="Node.js" id="node" isActive />
-        <Tab title="PHP" id="php" />
-        <Tab title="Rails" id="rails" />
+        <Tab title="Node.js" id="node" isActive={openTab == "node"} />
+        <Tab title="PHP" id="php" isActive={openTab == "php"} />
+        <Tab title="Rails" id="rails" isActive={openTab == "rails"} />
       </div>
 
       <div className={styles.startForFree}>

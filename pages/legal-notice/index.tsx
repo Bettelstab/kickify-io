@@ -8,7 +8,7 @@ export default function LegalNotice() {
         Av. Torcuato Fernández Miranda 22, 6B <br />
         33203 Gijón, Spain
         </p>
-        Email: kickify@maxharz.de <br />
+        Email: admin@kickify.io <br />
         VAT: ESY8934987F
     </BasicPage>
 }

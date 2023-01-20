@@ -8,6 +8,14 @@
   white-space: pre-wrap;
 }
 
+.existingCodebaseSection {
+  padding-top: 40px;
+}
+
+.codeSection {
+  padding-top: 40px;
+}
+
 .templates {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

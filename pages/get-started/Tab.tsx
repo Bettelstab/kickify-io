@@ -10,7 +10,7 @@ type Props = {
 
 export default function Tab({ title, id, isActive }: Props) {
   return (
-    <Link className={classNames(styles.tab, isActive && styles.activeTab)} href={`/get-started-${id}`}>
+    <Link className={classNames(styles.tab, isActive && styles.activeTab)} href={`/get-started/${id}/#code`}>
       {title}
     </Link>
   );
