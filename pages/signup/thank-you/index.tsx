@@ -12,7 +12,7 @@ export default function Signup() {
           closed alpha testing. If you leave us your email address, we will
           notify you as soon as we start public beta testing!
           <p className={styles.withdrawConsent}>
-            If you don't want to receive a message, you can withdraw your
+            If you don&apos;t want to receive a message, you can withdraw your
             consent any time by contacting with support@kickify.io.
           </p>
         </div>
