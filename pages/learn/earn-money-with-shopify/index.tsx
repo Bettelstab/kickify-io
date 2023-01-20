@@ -53,7 +53,7 @@ export default function EarnMoneyWithShopify() {
             Sell your own app: You can create and sell your own app directly on
             the Shopify App Store. You can charge a one-time fee or a recurring
             subscription to access your app.{" "}
-            <Link href="/learn/earn-money-with-shopify-apps">More on this</Link>
+            { /* TODO rewrite article <Link href="/learn/earn-money-with-shopify-apps">More on this</Link> */ }
           </li>
         </ul>
       </Article>
