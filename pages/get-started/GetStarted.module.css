@@ -5,6 +5,7 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+  white-space: pre-wrap;
 }
 
 .templates {
@@ -31,6 +32,5 @@
 @media (prefers-color-scheme: dark) {
   .code {
     background: #1e1e1e;
-    white-space: pre-wrap;
   }
 }
