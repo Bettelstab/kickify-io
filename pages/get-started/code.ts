@@ -1,4 +1,4 @@
-export default {
+const code = {
   node: `import { registerStore } from '@kickify/kickify';
 
 await registerStore('YOUR-API-KEY', store.accessToken, store.url);`,
@@ -10,3 +10,5 @@ Kickify.register_store('YOUR-API-KEY', store.access_token, store.url)`,
   Kickify::registerStore('YOUR-API-KEY', $store->access_token, $store->url);
 ?>`,
 };
+
+export default code;
