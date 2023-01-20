@@ -25,45 +25,6 @@ const nextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: '/deploy',
-        destination: '/get-started',
-        permanent: false,
-      },
-      {
-        source: '/signup-free',
-        destination: '/signup',
-        permanent: false,
-      },
-      {
-        source: '/signup-beginner',
-        destination: '/signup',
-        permanent: false,
-      },
-      {
-        source: '/signup-intermediate',
-        destination: '/signup',
-        permanent: false,
-      },
-      {
-        source: '/signup-advanced',
-        destination: '/signup',
-        permanent: false,
-      },
-      {
-        source: '/signup-github',
-        destination: '/signup',
-        permanent: false,
-      },
-      {
-        source: '/signup-get-started',
-        destination: '/signup',
-        permanent: false,
-      }
-    ]
-  },
 };
 
 module.exports = nextConfig;
