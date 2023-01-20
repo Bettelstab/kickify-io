@@ -29,7 +29,7 @@ export default function GetStarted() {
         It&apos;s easy to integrate with your existing codebase at GitHub. (More
         coming soon! Let us know what you need.)
       </p>
-      <Link href="/signup-github" className={styles.github}>
+      <Link href="/signup/github" className={styles.github}>
         <button>Connect GitHub repository</button>
       </Link>
       <p>
@@ -51,9 +51,9 @@ await registerStore('YOUR-API-KEY', store.accessToken, store.url);
       <div className={styles.startForFree}>
         <p>
           To obtain your API code,{" "}
-          <Link href="/signup-get-started">start for free now!</Link>
+          <Link href="/signup/get-started">start for free now!</Link>
         </p>
-        <Link href="/signup-get-started">
+        <Link href="/signup/get-started">
           <button>Signup</button>
         </Link>
       </div>

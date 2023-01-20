@@ -19,7 +19,7 @@ export default function Pricing() {
             <li>Community Support</li>
           </ul>
           <div className={styles.price}>$0</div>
-          <Link href="/signup-free">
+          <Link href="/signup/free">
             <button>Sign Up</button>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function Pricing() {
             <li>professional support</li>
           </ul>
           <div className={styles.price}>$15/month</div>
-          <Link href="/signup-beginner">
+          <Link href="/signup/beginner">
             <button>Sign Up</button>
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default function Pricing() {
             <li>professional support</li>
           </ul>
           <div className={styles.price}>$99/month</div>
-          <Link href="/signup-intermediate">
+          <Link href="/signup/intermediate">
             <button>Sign Up</button>
           </Link>
         </div>
@@ -56,7 +56,7 @@ export default function Pricing() {
             <li>priority support</li>
           </ul>
           <div className={styles.price}>$299/month</div>
-          <Link href="/signup-advanced">
+          <Link href="/signup/advanced">
             <button>Sign Up</button>
           </Link>
         </div>
