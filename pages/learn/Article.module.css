@@ -1,0 +1,10 @@
+.article {
+  width: clamp(300px, 70vw, 800px);
+  text-align: left;
+  line-height: 1.5;
+}
+
+.article a {
+  color: var(--blue-green);
+  text-decoration: underline;;
+}

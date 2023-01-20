@@ -1,3 +1,4 @@
+import Article from "../Article";
 import BasicPage from "/components/basic-page/BasicPage";
 
 export default function MisconceptionsAboutShopifyAppDevelopment() {
@@ -6,6 +7,7 @@ export default function MisconceptionsAboutShopifyAppDevelopment() {
       title="Misconceptions about Shopify App Development"
       description="What are the most common misconceptions about Shopify App Development?"
     >
+      <Article>
       <p>Misconceptions about Shopify App Development</p>
 
       <ul>
@@ -35,6 +37,7 @@ export default function MisconceptionsAboutShopifyAppDevelopment() {
           resources to help with any maintenance needs.
         </li>
       </ul>
+</Article>
     </BasicPage>
   );
 }
