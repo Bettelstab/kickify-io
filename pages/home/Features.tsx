@@ -1,14 +1,7 @@
 import Image from "next/image";
+import FeatureBox from "./FeatureBox";
 import logo from "/public/images/logo.png";
 import styles from "./Features.module.css";
-
-type Props = {
-  children: React.ReactNode;
-};
-
-function FeatureBox(props: Props) {
-  return <div className={styles.featureBox}>{props.children}</div>;
-}
 
 export default function Features() {
   return (
