@@ -55,7 +55,7 @@
 .free button {
   margin-bottom: 20px;
   background: var(--black);
-  transition: color, background 0.35s ease;
+  transition: color 0.35 ease, background 0.35s ease;
 }
 
 .free button:hover {
