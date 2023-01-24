@@ -1,27 +1,27 @@
 import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 import FeatureBox from "./FeatureBox";
 import logo from "/public/images/logo.png";
 import styles from "./Features.module.css";
 
 export default function Features() {
+  const { ref, inView, entry } = useInView({ threshold: 0.5 });
+
   return (
-    <div className={styles.featuresSection} id="features">
+    <div className={styles.featuresSection} id="features" ref={ref}>
       <h2>
-        <Image src={logo} alt="The Kickify Logo, a man kicking all Shopify app development problems away" width={100} />
+        <Image className={inView ? "show" : "hidden"} src={logo} alt="The Kickify Logo, a man kicking all Shopify app development problems away" width={100} />
         Kickstart your Shopify App business
       </h2>
       <div className={styles.boxContainer}>
-        <FeatureBox>
-          <h3>Easy deployment</h3>
-          <p>Use our Node.JS template to get started or bring your own.</p>
+        <FeatureBox title="Easy deployment">
+          Use our Node.JS template to get started or bring your own.
         </FeatureBox>
-        <FeatureBox>
-          <h3>Great dev experience</h3>
-          <p>Enojoy first-class Typescript support and prebuilt functionality.</p>
+        <FeatureBox title="Great dev experience">
+          Enojoy first-class Typescript support and prebuilt functionality.
         </FeatureBox>
-        <FeatureBox>
-          <h3>Fair pricing</h3>
-          <p>Start for free with peace of mind. We grow with you.</p>
+        <FeatureBox title="Fair pricing">
+          Start for free with peace of mind. We grow with you.
         </FeatureBox>
       </div>
     </div>
