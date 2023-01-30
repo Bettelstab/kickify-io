@@ -5,7 +5,7 @@ import logo from "/public/images/logo.png";
 import styles from "./Features.module.css";
 
 export default function Features() {
-  const { ref, inView, entry } = useInView({ threshold: 0.5 });
+  const { ref, inView, entry } = useInView({ threshold: 0.4, rootMargin: "100px" });
 
   return (
     <div className={styles.featuresSection} id="features" ref={ref}>

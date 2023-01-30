@@ -70,16 +70,28 @@ details summary {
   cursor: pointer;
 }
 
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-  transition: all 0.8s ease;
-}
-
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-200px);
-  transition: all 0.8s ease;
+  transform: translateX(-50px) rotateY(45deg);
+  transition: opacity var(--animation-time) ease, filter var(--animation-time) ease, transform var(--animation-time) ease;
+}
+
+.show {
+  --animation-time: 0.3s;
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: opacity var(--animation-time) ease, filter var(--animation-time) ease, transform var(--animation-time) ease;
+}
+
+@media screen and (min-width: 500px) {
+  .hidden {
+    --animation-time: 0.8s;
+    transform: translateX(-200px);
+  }
+
+  .show {
+    --animation-time: 0.8s;
+  }
 }
