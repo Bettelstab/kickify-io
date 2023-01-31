@@ -26,6 +26,9 @@ export default function NavigationBar() {
         <li>
           <Link href="/privacy-policy">Privacy Policy</Link>
         </li>
+        <li>
+          <Link href="/get-started/footer">Get Started</Link>
+        </li>
       </ul>
     </nav>
   );
