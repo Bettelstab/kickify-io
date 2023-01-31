@@ -1,3 +1,7 @@
+.tab:not(.activeTab) {
+  text-decoration: none;
+}
+
 .activeTab {
   text-decoration: underline;
 }
