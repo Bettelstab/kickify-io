@@ -13,7 +13,7 @@ export default function Hero() {
           shortcut and do it the <em>Kickify</em> way.
         </p>
         <div className={styles.cta}>
-          <Link href="/signup">
+          <Link href="/get-started/start">
             <button>Get started</button>
           </Link>
         </div>
