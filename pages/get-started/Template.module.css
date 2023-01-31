@@ -12,6 +12,8 @@ Template should be a visual representation of an app template, which can be depl
   border-radius: 25px;
   border: 1px solid var(--yellow-orange);
   position: relative;
+  max-width: 200px;
+  margin: auto;
 }
 
 .template:has(button:hover) {

@@ -1,3 +1,8 @@
+.templatesSection {
+  padding-top: 60px;
+  width: clamp(300px, 80vw, 1000px);
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -13,7 +18,7 @@
 }
 
 .codeSection {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .templates {
@@ -35,6 +40,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.learnMore {
+  padding-top: 50px;
 }
 
 @media (prefers-color-scheme: dark) {
