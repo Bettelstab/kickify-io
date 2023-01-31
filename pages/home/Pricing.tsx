@@ -1,12 +1,15 @@
 import Link from "next/link";
 import classNames from "/library/classnames";
 import styles from "./Pricing.module.css";
+import { useInView } from "react-intersection-observer";
 
 export default function Pricing() {
+  const {ref, inView} = useInView({threshold: 0, rootMargin: '100px'});
+
   return (
-    <div className={styles.pricingSection} id="pricing">
+    <div className={classNames(styles.pricingSection)} id="pricing">
       <h2>Our Pricing</h2>
-      <div className={styles.priceBoxes}>
+      <div ref={ref} className={classNames(styles.priceBoxes, inView ? "show" : "hidden")}>
         <div className={classNames(styles.priceBox, styles.free)}>
           <h3>Free</h3>
           <p>
