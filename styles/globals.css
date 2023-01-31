@@ -35,6 +35,10 @@ a {
   text-decoration: underline;
 }
 
+a:has(button) {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
